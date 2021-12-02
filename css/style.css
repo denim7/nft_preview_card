@@ -11,9 +11,10 @@
     display: flex;
     margin: auto;
     border-radius: 15px;
+    /* background: rgba(0, 255, 247, 0.6) url("../images/icon-view.svg") center/3rem no-repeat; */
 }
 
-.card{
+.card_content{
     background-color: hsl(216, 50%, 16%);
     width: 300px;
     border-radius: 10px;
@@ -21,20 +22,20 @@
     padding-top: 25px;
 }
 
-.title{
+.card_title{
     color: hsl(0, 0%, 100%);
     font-size: 18px;
     font-weight: 600;
     margin-left: 25px;
 }
 
-.about {
+.card_description {
     color: hsl(215, 51%, 70%);
     margin-left: 25px;
 }
 
 /* Etherium and clock icons plus corresponding text */
-.currency {
+.card_lists {
     display: flex;
     justify-content: space-around;
 }
@@ -50,13 +51,14 @@
 }
 
 /* Footer of the nft component */
-.creator {
+.card_profile {
     display: flex;
     color: hsl(215, 51%, 70%); 
    
 }
-span{
+a {
     color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 #avatartxt {
     margin-left: 20px;
@@ -77,4 +79,7 @@ hr{
     color: hsl(215, 32%, 27%);
     
 }
+  
 
+    
+  
