@@ -1,0 +1,88 @@
+.mainbg {
+    background-color: hsl(217, 54%, 11%);
+    width: 400px;
+    height: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+
+#image {
+    width: 250px;
+    display: flex;
+    margin: auto;
+    padding-top: 25px;
+    border-radius: 15px;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.about {
+    color: hsl(215, 51%, 70%);
+    margin-left: 25px;
+}
+
+.currency {
+    display: flex;
+    align-items: baseline;
+}
+.etherium {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    margin-left: 25px;
+   
+}
+#iconetherium {
+    width: 80%;
+    height: 80%; 
+}
+
+.clock{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-left: 80px;
+    
+}
+
+#iconclock{
+    width: 80%;
+    height: 80%;
+   
+}
+
+.creator {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    
+}
+.avatar {
+    width: 20%;
+    border-color: hsl(0, 0%, 100%);
+    border-style: solid;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+hr{
+    margin: 25px;
+    border-style: solid;
+    color: hsl(215, 32%, 27%);
+    
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+}
