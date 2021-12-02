@@ -1,3 +1,4 @@
 # Frontend Mentor - NFT preview card component
 
-https://www.frontendmentor.io/challenges?difficulties=1&types=free
+Link to all the challenges
+https://www.frontendmentor.io/challenges
