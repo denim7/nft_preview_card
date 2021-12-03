@@ -1,18 +1,42 @@
 /* Body styles where all the other elements are placed */
 .body{
     background-color: hsl(217, 54%, 11%);
-    max-width: 100vh;
     font-family: "Outfit";
-    padding: 20px;
 }
-/* Image of NFT */
+/* Image of NFT and icon view*/
 #image {
     width: 250px;
     display: flex;
     margin: auto;
     border-radius: 15px;
-    /* background: rgba(0, 255, 247, 0.6) url("../images/icon-view.svg") center/3rem no-repeat; */
 }
+ .main-img {
+    position: relative;
+  }
+
+ .main-img div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.541);
+    border-radius: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+ .main-img div:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .body .main-img div img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 .card_content{
     background-color: hsl(216, 50%, 16%);
@@ -60,6 +84,12 @@ a {
     color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
+a:hover {
+    color: hsl(178, 100%, 50%);
+    transition: 0.3s ease-in-out;
+  }
+
+
 #avatartxt {
     margin-left: 20px;
     font-size: 14px;
@@ -79,6 +109,8 @@ hr{
     color: hsl(215, 32%, 27%);
     
 }
+  
+ 
   
 
     
